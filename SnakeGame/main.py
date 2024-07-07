@@ -8,7 +8,7 @@ SW, SH = 600, 600
 WIN = pygame.display.set_mode((SW, SH))
 
 BLOCK_SIZE = 25
-FONT = pygame.font.Font("font.ttf", BLOCK_SIZE * 2)
+FONT = pygame.font.Font("Snakegame/font.ttf", BLOCK_SIZE * 2)
 
 screen = pygame.display.set_mode((600, 600))
 pygame.display.set_caption("Snake!")
